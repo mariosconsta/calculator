@@ -15,12 +15,14 @@ body {
 
 #displayContainer {
     border: 2px solid black;
-    height: 200px;
+    border-radius: 5px;
+    height: 15vh;
     display: flex;
     gap: 10px;
     align-items: center;
     justify-content: center;
     background-color: #AC87C5;
+    margin-bottom: 15px;
 }
 
 .displayLabel {
@@ -29,27 +31,21 @@ body {
     font-weight: 800;
 }
 
-#userInputArea {
-    width: 50%;
-}
-
 #buttonsContainer {
-    margin-top: 25px;
-    padding: 10px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 5px;
+    width: 50%;
+    gap: 2px;
 }
 
 .userInputButton,
 .actionButton,
 .operatorBtn {
-    flex: 0 0 calc(30% - 10px);
-    padding: 10px;
-    font-size: 54px;
-    text-align: center;
+    flex: 0 0 calc(33.33% - 10px);
+    font-size: 42px;
     border: 2px solid black;
     border-radius: 3px;
     background-color: #E0AED0;
