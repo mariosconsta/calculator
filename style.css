@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#mainContainer {
+    background-color: #FFE5E5;
+    border: 2px solid black;
+    border-radius: 5px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#displayContainer {
+    border: 2px solid black;
+    height: 200px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #AC87C5;
+}
+
+.displayLabel {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+}
+
+#userInputArea {
+    width: 50%;
+}
+
+#buttonsContainer {
+    margin-top: 25px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.userInputButton,
+.actionButton,
+.operatorBtn {
+    flex: 0 0 calc(30% - 10px);
+    padding: 10px;
+    font-size: 54px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: #E0AED0;
+    color: #756AB6;
+}
